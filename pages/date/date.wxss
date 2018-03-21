@@ -1,0 +1,25 @@
+/* pages/date/date.wxss */
+.container{
+  padding-top: 20rpx;
+}
+.todaytext{
+  width: 90%;
+  magrin-left: 5%;
+  text-align: left;
+  font-size: 30rpx;
+  color: darkcyan;
+  background: #fff;
+  border-radius: 10rpx;
+}
+.rememberzd{
+  float: right;
+}
+.section{
+  font-size: 30rpx;
+  padding:20rpx;
+}
+.picker{
+  width: 100%;
+  height: 500rpx;
+  background: url('')
+}

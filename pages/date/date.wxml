@@ -1,0 +1,15 @@
+<!--pages/date/date.wxml-->
+<view class="container" style="background:url('../../images/bg.jpeg');background-size:cover;">
+  <text class="todaytext">今天是:<text bindtap="click">{{time}}</text><text class='rememberzd'>记录账单</text></text>
+    <view class="section">  
+      <picker mode="date" value="{{date}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange">  
+        <button class="picker">  
+          搜索账单{{dates}}  
+        </button>  
+      </picker>  
+    </view>   
+  
+  <view class="usermotto">
+    <text class="user-motto">Welcome to Back!</text>
+  </view>
+</view>
